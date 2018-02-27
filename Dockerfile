@@ -7,4 +7,4 @@ COPY --from=gobuild /go/bin/terraform-provider-docker-image /root/.terraform.d/p
 RUN apk add docker py-pip
 RUN pip install awscli --upgrade
 
-ENTRYPOINT [ "/bin/sh" ]
+ENTRYPOINT []
