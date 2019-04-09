@@ -6,6 +6,7 @@ RUN apk add \
     py-pip \
     docker \
     graphviz \
+    nodejs \
     ttf-opensans \
     zip
 RUN pip install \
