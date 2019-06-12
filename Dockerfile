@@ -7,7 +7,7 @@ RUN apk add \
     docker \
     freetype \
     graphviz \
-    nodejs \
+    npm \
     ttf-opensans \
     zip
 RUN pip3 install -U pip
